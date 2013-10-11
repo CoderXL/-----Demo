@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TwoViewController.h
 //  SideslipTabBar
 //
 //  Created by zhangqingfeng on 13-7-9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITabBarController
+@interface TwoViewController : UIViewController
 
 @end

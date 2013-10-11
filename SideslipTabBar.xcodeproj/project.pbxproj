@@ -16,8 +16,16 @@
 		38E095F2178BDB7900A1B8A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E095F1178BDB7900A1B8A1 /* Default.png */; };
 		38E095F4178BDB7900A1B8A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E095F3178BDB7900A1B8A1 /* Default@2x.png */; };
 		38E095F6178BDB7900A1B8A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E095F5178BDB7900A1B8A1 /* Default-568h@2x.png */; };
-		38E095F9178BDB7900A1B8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E095F8178BDB7900A1B8A1 /* ViewController.m */; };
-		38E095FC178BDB7900A1B8A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E095FA178BDB7900A1B8A1 /* ViewController.xib */; };
+		38E09604178BDBB400A1B8A1 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E09603178BDBB400A1B8A1 /* LeftView.m */; };
+		38E0960A178BDBE100A1B8A1 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E09609178BDBE100A1B8A1 /* TwoViewController.m */; };
+		38E09623178BF70200A1B8A1 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E09622178BF70200A1B8A1 /* NextViewController.m */; };
+		38E0962A178C004B00A1B8A1 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E09628178C004A00A1B8A1 /* 0.gif */; };
+		38E0962B178C004B00A1B8A1 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E09629178C004A00A1B8A1 /* 1.gif */; };
+		38E0962D178C018400A1B8A1 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E0962C178C018400A1B8A1 /* 2.jpg */; };
+		38E09638178C044300A1B8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E09636178C044300A1B8A1 /* ViewController.m */; };
+		38E09639178C044300A1B8A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E09637178C044300A1B8A1 /* ViewController.xib */; };
+		38E0963D178C048700A1B8A1 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E0963B178C048700A1B8A1 /* OneViewController.m */; };
+		38E0963E178C048700A1B8A1 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E0963C178C048700A1B8A1 /* OneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +42,21 @@
 		38E095F1178BDB7900A1B8A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		38E095F3178BDB7900A1B8A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		38E095F5178BDB7900A1B8A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		38E095F7178BDB7900A1B8A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38E095F8178BDB7900A1B8A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		38E095FB178BDB7900A1B8A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		38E09602178BDBB400A1B8A1 /* LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftView.h; sourceTree = "<group>"; };
+		38E09603178BDBB400A1B8A1 /* LeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftView.m; sourceTree = "<group>"; };
+		38E09608178BDBE100A1B8A1 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		38E09609178BDBE100A1B8A1 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		38E09621178BF70200A1B8A1 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		38E09622178BF70200A1B8A1 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		38E09628178C004A00A1B8A1 /* 0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0.gif; sourceTree = "<group>"; };
+		38E09629178C004A00A1B8A1 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		38E0962C178C018400A1B8A1 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		38E09635178C044200A1B8A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38E09636178C044300A1B8A1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38E09637178C044300A1B8A1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		38E0963A178C048700A1B8A1 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		38E0963B178C048700A1B8A1 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		38E0963C178C048700A1B8A1 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +103,23 @@
 		38E095E5178BDB7900A1B8A1 /* SideslipTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				38E09628178C004A00A1B8A1 /* 0.gif */,
+				38E09629178C004A00A1B8A1 /* 1.gif */,
+				38E0962C178C018400A1B8A1 /* 2.jpg */,
 				38E095EE178BDB7900A1B8A1 /* AppDelegate.h */,
 				38E095EF178BDB7900A1B8A1 /* AppDelegate.m */,
-				38E095F7178BDB7900A1B8A1 /* ViewController.h */,
-				38E095F8178BDB7900A1B8A1 /* ViewController.m */,
-				38E095FA178BDB7900A1B8A1 /* ViewController.xib */,
+				38E09602178BDBB400A1B8A1 /* LeftView.h */,
+				38E09603178BDBB400A1B8A1 /* LeftView.m */,
+				38E09635178C044200A1B8A1 /* ViewController.h */,
+				38E09636178C044300A1B8A1 /* ViewController.m */,
+				38E09637178C044300A1B8A1 /* ViewController.xib */,
+				38E0963A178C048700A1B8A1 /* OneViewController.h */,
+				38E0963B178C048700A1B8A1 /* OneViewController.m */,
+				38E0963C178C048700A1B8A1 /* OneViewController.xib */,
+				38E09608178BDBE100A1B8A1 /* TwoViewController.h */,
+				38E09609178BDBE100A1B8A1 /* TwoViewController.m */,
+				38E09621178BF70200A1B8A1 /* NextViewController.h */,
+				38E09622178BF70200A1B8A1 /* NextViewController.m */,
 				38E095E6178BDB7900A1B8A1 /* Supporting Files */,
 			);
 			path = SideslipTabBar;
@@ -162,7 +194,11 @@
 				38E095F2178BDB7900A1B8A1 /* Default.png in Resources */,
 				38E095F4178BDB7900A1B8A1 /* Default@2x.png in Resources */,
 				38E095F6178BDB7900A1B8A1 /* Default-568h@2x.png in Resources */,
-				38E095FC178BDB7900A1B8A1 /* ViewController.xib in Resources */,
+				38E0962A178C004B00A1B8A1 /* 0.gif in Resources */,
+				38E0962B178C004B00A1B8A1 /* 1.gif in Resources */,
+				38E0962D178C018400A1B8A1 /* 2.jpg in Resources */,
+				38E09639178C044300A1B8A1 /* ViewController.xib in Resources */,
+				38E0963E178C048700A1B8A1 /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +211,11 @@
 			files = (
 				38E095EC178BDB7900A1B8A1 /* main.m in Sources */,
 				38E095F0178BDB7900A1B8A1 /* AppDelegate.m in Sources */,
-				38E095F9178BDB7900A1B8A1 /* ViewController.m in Sources */,
+				38E09604178BDBB400A1B8A1 /* LeftView.m in Sources */,
+				38E0960A178BDBE100A1B8A1 /* TwoViewController.m in Sources */,
+				38E09623178BF70200A1B8A1 /* NextViewController.m in Sources */,
+				38E09638178C044300A1B8A1 /* ViewController.m in Sources */,
+				38E0963D178C048700A1B8A1 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +228,6 @@
 				38E095E9178BDB7900A1B8A1 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		38E095FA178BDB7900A1B8A1 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38E095FB178BDB7900A1B8A1 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SideslipTabBar/SideslipTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SideslipTabBar/SideslipTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +307,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SideslipTabBar/SideslipTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SideslipTabBar/SideslipTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
